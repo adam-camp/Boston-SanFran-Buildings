@@ -94,8 +94,7 @@ require([
     });
       
      v2.addEventListener('click', function() {
-      // reuse the default camera position already established in the homeBtn
-      view.goTo({
+            view.goTo({
         position: {
           x: -71.23,
           y: 42.342,
@@ -109,8 +108,7 @@ require([
 
     
      v3.addEventListener('click', function() {
-      // reuse the default camera position already established in the homeBtn
-      view.goTo({
+            view.goTo({
         position: {
           x: -70.955,
           y: 42.345,
@@ -122,12 +120,11 @@ require([
     });
   
        v4.addEventListener('click', function() {
-      // reuse the default camera position already established in the homeBtn
-      view.goTo({
+           view.goTo({
         position: {
           x: -122.45,
           y: 37.75,
-          z: 10000
+          z: 40000
         },
         tilt: 0,
         heading: 0
